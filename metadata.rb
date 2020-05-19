@@ -3,7 +3,7 @@ maintainer 'Robert Thimons'
 maintainer_email 'r.thimons@gmail.com'
 license 'Apache-2.0'
 description 'Provides mysql_service, mysql_config, and mysql_client resources'
-version '8.7.1'
+version '8.7.2'
 
 %w(redhat centos scientific oracle).each do |el|
   supports el, '>= 6.0'
